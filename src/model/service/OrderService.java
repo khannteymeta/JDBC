@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface OrderService {
     void addNewOrder(OrderDto orderDto);
-    List<OrderDto> queryAllOrder(OrderDto orderDto);
-    OrderDto updateOrder(OrderDto orderDto);
-    OrderDto deleteOrder(OrderDto orderDto);
-    OrderDto searchOrder(OrderDto orderDto);
+    List<OrderDto> queryAllOrder();
+    OrderDto updateOrderById(Integer id);
+    OrderDto deleteOrderById(Integer id);
+    OrderDto searchOrderById(Integer id);
 }

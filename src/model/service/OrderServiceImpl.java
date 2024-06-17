@@ -5,28 +5,29 @@ import model.dto.OrderDto;
 import java.util.List;
 
 public class OrderServiceImpl implements OrderService{
+
     @Override
     public void addNewOrder(OrderDto orderDto) {
 
     }
 
     @Override
-    public List<OrderDto> queryAllOrder(OrderDto orderDto) {
+    public List<OrderDto> queryAllOrder() {
         return List.of();
     }
 
     @Override
-    public OrderDto updateOrder(OrderDto orderDto) {
+    public OrderDto updateOrderById(Integer id) {
         return null;
     }
 
     @Override
-    public OrderDto deleteOrder(OrderDto orderDto) {
+    public OrderDto deleteOrderById(Integer id) {
         return null;
     }
 
     @Override
-    public OrderDto searchOrder(OrderDto orderDto) {
+    public OrderDto searchOrderById(Integer id) {
         return null;
     }
 }

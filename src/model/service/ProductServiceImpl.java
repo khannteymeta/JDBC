@@ -5,6 +5,7 @@ import model.dto.ProductDto;
 import java.util.List;
 
 public class ProductServiceImpl implements  ProductService{
+
     @Override
     public void addNewProduct(ProductDto productDto) {
 
@@ -16,17 +17,17 @@ public class ProductServiceImpl implements  ProductService{
     }
 
     @Override
-    public ProductDto updateProdcutById(ProductDto productDto) {
+    public ProductDto updateProdcutById(Integer id) {
         return null;
     }
 
     @Override
-    public ProductDto deleteProductById(ProductDto productDto) {
+    public ProductDto deleteProductById(Integer id) {
         return null;
     }
 
     @Override
-    public ProductDto searchProductById(ProductDto productDto) {
+    public ProductDto searchProductById(Integer id) {
         return null;
     }
 }
