@@ -13,7 +13,7 @@ public class ProductController {
         productService.addNewProduct(productDto);
     }
 
-    public List<ProductDto> queryAllProduct(ProductDto productDto){
+    public List<ProductDto> queryAllProduct(){
         return productService.queryAllProduct();
     }
 
@@ -25,7 +25,7 @@ public class ProductController {
         return productService.deleteProductById(id);
     }
 
-    public ProductDto searchProductBtId(Integer id){
+    public ProductDto searchProductById(Integer id){
         return  productService.searchProductById(id);
     }
 }

@@ -3,7 +3,7 @@ package view;
 import java.util.Scanner;
 
 public class View {
-    public static int menu (){
+    public static void menu (){
         System.out.println(
                 "\n" +
                 "     ██╗ ██████╗  ██████╗   ██████╗\n" +
@@ -21,7 +21,5 @@ public class View {
                         "[4] Delete product by ID       [9] Delete customer by ID      [14] Delete order by ID"+"\n"+
                         "[5] Update product by ID       [10] Update customer byID      [15] Update order by ID"+"\n"
         );
-        System.out.print("Inert option : ");
-        return (new Scanner(System.in).nextInt());
     }
 }
